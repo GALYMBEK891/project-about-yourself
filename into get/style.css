@@ -1,0 +1,64 @@
+.h1 {
+    text-align: center;
+    background-color: aquamarine ;
+    color: rgb(252, 252, 252);
+    padding: 15px;
+    margin: -17px;
+
+}
+a{
+    margin: 6em;
+    padding: 8px;
+    text-decoration: none;
+    color: azure;
+   
+}
+body{
+    background-image: url(https://images2.alphacoders.com/242/2420.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.div1  {
+    color: rgb(82, 102, 92);
+    text-align: center;
+}
+.image1 {
+    width: 300px;
+    animation-name: fhwei;
+    animation-duration: 2s;
+transition: transform 3s ease, opacity 1s ease-in; 
+
+}
+@keyframes  toanimation image {
+    from { 
+        translate: 200vw 0; 
+        scale: 200% 4; 
+      } 
+     
+      to { 
+        translate: 10 10; 
+        scale: 100% 1; 
+      }
+    
+}
+img {
+    animation-name: fhwei;
+    animation-duration: 2s;
+    
+width: 400px; 
+height: 400px; 
+transition: transform 3s ease, opacity 1s ease-in; 
+} 
+@keyframes gradient  {
+    0%{background-position: 0% 50%}
+    50%{background-position: 0% 100%}
+     100%{background-position: 0% 50%}
+
+
+}
+body{
+    animation: gradient 4s ease-in-out infinite;
+    background-color: blanchedalmond, indianred, purple;
+}
